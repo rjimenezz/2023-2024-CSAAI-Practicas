@@ -1,9 +1,13 @@
 /* Ponemos a cero todas las propiedades del cuerpo */
 /* Sin margen, sin relleno y sin borde              */
+* {
+  box-sizing: border-box;
+}
 body {
     padding: 0px;
-    margin: 0px;
-    border: none;
+    margin: 10px;
+    border: dashed;
+    border-color: red;
   }
   
   /*  Propiedades de la caja del párrafo
@@ -11,8 +15,13 @@ body {
       para verlo. Y lo ponemos de color azul
   */
   p {
-    margin: 0px;
-    padding:0px;
+    margin: 10px;
+    padding: 10px;
     border:solid;
-    border-color: blue;
+    border-color: yellow;
+    /*height: 40px;
+    width: 50%;*/
+  
+    
   }
+  
