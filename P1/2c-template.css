@@ -1,65 +1,75 @@
-/* https://www.w3schools.com/howto/howto_css_two_columns.asp */
-/* https://developer.mozilla.org/es/docs/Web/CSS/box-sizing */
-/* Así definimos el comportamiento de caja para todos los elementos */
-* {
-    box-sizing: border-box;
-  }
-  
-/* Crear columnas de ancho diferente que se colocan una a continuación de la otra */
+/* Estilo general */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Contenedor principal */
+.fila {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilo de las columnas */
 .columna {
-float: left;
-padding: 10px;
-min-height: 500px;
+  float: left;
+  padding: 20px;
+  min-height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Columna izquierda */
 .izquierda {
-width: 25%;
+  width: 20%;
+  background-color: #f39c12; /* Naranja */
+  color: #fff;
 }
 
+/* Columna derecha */
 .derecha {
-width: 75%;
+  width: 70%;
+  background-color: #3498db; /* Azul */
+  color: #fff;
 }
 
-/* Clear floats despues de las columnas para eliminar la superposición */
-.filla:after {
-content: "";
-display: table;
-clear: both;
-}
-
-#c1 {
-    background-color:#aaa;
-}
-
-#c2 {
-    background-color:#bbb;
-}
-
-/* estilos para imágenes https://www.w3schools.com/css/css3_images.asp */
-/* posicionamiento de imágenes https://www.w3schools.com/css/css_positioning.asp */
-
+/* Estilo para imágenes */
 img {
-    width: 100%;
-    height: auto;
+  max-width: 175%;
+  height: auto;
+  border-radius: 5px;
 }
 
+/* Estilo para sección de imágenes responsive */
 .iresponsive {
-    padding: 0 6px;
-    float: left;
-    width: 50%;
+  padding: 10px;
+  float: left;
+  width: 50%;
+}
+
+/* Estilo para enlaces */
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffeb3b; /* Amarillo */
+}
+
+/* Media query para diseño responsive */
+@media screen and (max-width: 768px) {
+  .columna {
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0;
   }
 
-/* Responsive layout - cuando el ancho de pantalla es menor a 600px, muestra las columnas apiladas. */
-/* Así conseguimos que el contenido se vea bien en dispositvos móviles */
-
-@media screen and (max-width: 600px) {
-    .columna {
+  .iresponsive {
       width: 100%;
-    }
-
-    .iresponsive {
-        width: 100%;
-    }
+  }
 }
-
-/* Más sobre diseño web responsive https://www.w3schools.com/css/css_rwd_intro.asp */
