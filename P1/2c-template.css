@@ -9,15 +9,15 @@ body {
 
 /* Contenedor principal */
 .fila {
-  max-width: 1200px;
+  max-width: 2600px;
   margin: 0 auto;
 }
 
 /* Estilo de las columnas */
 .columna {
   float: left;
-  padding: 20px;
-  min-height: 500px;
+  padding: 1%;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
@@ -36,18 +36,22 @@ body {
   color: #fff;
 }
 
-/* Estilo para imágenes */
-img {
-  max-width: 175%;
-  height: auto;
-  border-radius: 5px;
-}
-
 /* Estilo para sección de imágenes responsive */
 .iresponsive {
   padding: 10px;
   float: left;
-  width: 50%;
+  width: 100%; /* Hacer que la sección ocupe el 100% del contenedor */
+  margin-left: auto; /* Centrar la sección horizontalmente */
+  margin-right: auto; /* Centrar la sección horizontalmente */
+}
+
+/* Estilo para imágenes */
+img {
+  width: 80%; /* Hacer que la imagen ocupe el 80% del contenedor */
+  height: auto; /* Mantener la proporción original de la imagen */
+  display: block; /* Centrar la imagen */
+  margin-right: 10%; /* Centrar la imagen */
+  margin-left: 2%;
 }
 
 /* Estilo para enlaces */
@@ -59,6 +63,18 @@ a {
 
 a:hover {
   color: #ffeb3b; /* Amarillo */
+}
+
+/* Estilo para la lista */
+
+/* Estilo para los elementos de la lista */
+ul li {
+  margin-bottom: 20px; /* Ajusta el espacio entre elementos de la lista */
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
 }
 
 /* Media query para diseño responsive */
