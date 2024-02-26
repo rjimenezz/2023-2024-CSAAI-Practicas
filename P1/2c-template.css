@@ -7,6 +7,13 @@ body {
   color: #333;
   font-size: 16px; /* Tamaño de fuente base */
 }
+/* Estilo para el recuadro del título */
+.titulo-recuadro {
+  background-color: #ad1519; /* Color de fondo azul */
+  color: #fff; /* Color del texto blanco */
+  padding: 20px; /* Relleno */
+  text-align: center; /* Centrar el texto */
+}
 
 /* Contenedor principal */
 .fila {
@@ -25,14 +32,14 @@ body {
 
 /* Columna izquierda */
 .izquierda {
-  width: 20%;
-  background-color: #f39c12; /* Naranja */
-  color: #fff;
+  width: 22%;
+  background-color: #f3ef12; /* Amarillo */
+  color: #000000;
 }
 
 /* Columna derecha */
 .derecha {
-  width: 70%;
+  width: 74%;
   background-color: #3498db; /* Azul */
   color: #fff;
 }
@@ -52,29 +59,32 @@ img {
   height: auto; /* Mantener la proporción original de la imagen */
   display: block; /* Centrar la imagen */
   margin-right: 10%; /* Centrar la imagen */
-  margin-left: 2%;
+  margin-left: 6%;
+  margin-bottom: 10px;
 }
 
-/* Estilo para enlaces */
 a {
   text-decoration: none;
-  color: #fff;
-  transition: color 0.3s ease;
-  font-size: 18px; /* Tamaño de fuente para enlaces */
+  color: #000000;
+  transition: color 0.3s;
+  font-size: 22px; /* Tamaño de fuente para enlaces */
 }
 
 a:hover {
-  color: #ffeb3b; /* Amarillo */
+  color: #3498db; /* Cambia el color del texto al pasar el ratón */
 }
 
 /* Estilo para la lista */
 
 /* Estilo para los elementos de la lista */
 ul li {
-  margin-bottom: 20px; /* Ajusta el espacio entre elementos de la lista */
-  font-size: 18px; /* Tamaño de fuente para elementos de la lista */
+  margin-bottom: 26px; /* Ajusta el espacio entre elementos de la lista */
+  font-size: 22px; /* Tamaño de fuente para elementos de la lista */
 }
-
+p{
+  margin-bottom: 26px;
+  font-size: 22px;
+}
 
 /* Media query para diseño responsive */
 @media screen and (max-width: 768px) {
