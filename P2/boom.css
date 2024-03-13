@@ -16,11 +16,11 @@ body {
     padding: 10px;
 }
 .secreto {
-    border: 10px inset rgb(86, 132, 180); /* Cambio de color del borde */
+    border: 10px ridge rgb(0, 51, 102); /* Cambio de estilo de borde */
     border-radius: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
-    background: rgb(45, 95, 135); /* Cambio de color de fondo */
+    background: rgb(0, 102, 204); /* Cambio de color de fondo */
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -33,20 +33,19 @@ body {
     text-align: center;
 }
 .digito {
-    border-radius: 50px;
+    border-radius: 50%;
     font-size: 30px;
     color: azure;
     width: 70px;
     height: 70px;
-    border: 0px;
-    background: linear-gradient(rgb(150, 186, 231), rgb(74, 114, 166)); /* Cambio de gradiente de fondo */
-    border: 5px inset rgb(86, 132, 180); /* Cambio de color del borde */
+    border: 5px outset rgb(0, 51, 102); /* Cambio de estilo de borde */
+    background: linear-gradient(rgb(51, 153, 255), rgb(0, 102, 204)); /* Cambio de gradiente de fondo */
 }
 .accion {
     justify-content: space-around;
-    border-radius: 10px;
-    border: 0px;
-    background: linear-gradient(rgb(140, 175, 228), rgb(45, 95, 135)); /* Cambio de gradiente de fondo */
+    border-radius: 50%;
+    border: 5px outset transparent; /* Cambio de estilo de borde */
+    background: linear-gradient(rgb(51, 153, 255), rgb(0, 102, 204)); /* Cambio de gradiente de fondo */
 }
 .img_boton {
     width: 30%;
@@ -75,19 +74,19 @@ body {
     font-size: 30px;
     color: azure;
     padding: 10px 0;
-    background: rgb(45, 95, 135); /* Cambio de color de fondo */
-    border-radius: 30px;
-    border: 10px outset rgb(86, 132, 180); /* Cambio de color del borde */
+    background: rgb(0, 102, 204); /* Cambio de color de fondo */
+    border-radius: 50px;
+    border: 5px ridge rgb(0, 51, 102); /* Cambio de estilo de borde */
 }
 #combinacion {
     margin-top: 5%;
-    border: 10px groove rgb(53, 93, 144); /* Cambio de color del borde */
+    border: 10px double rgb(0, 51, 102); /* Cambio de estilo de borde */
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
     width: auto;
-    background: linear-gradient(rgb(27, 60, 99), rgb(7, 32, 65)); /* Cambio de gradiente de fondo */
-    border-radius: 15px;
+    background: linear-gradient(rgb(0, 102, 204), rgb(0, 51, 102)); /* Cambio de gradiente de fondo */
+    border-radius: 50px;
 }
 .contenedor {
     margin-left: 50%;
