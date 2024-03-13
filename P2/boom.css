@@ -1,0 +1,99 @@
+@media screen and (max-width: 600px) {
+    /* For mobile phones: */
+    #combinacion {
+        width: 100%;
+    }
+}
+body {
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    color: azure; /* Cambio de color de texto */
+}
+.codigo { 
+    margin-left: 30%;
+    color: azure;
+    font-size: 30px;
+    padding: 10px;
+}
+.secreto {
+    border: 10px inset rgb(86, 132, 180); /* Cambio de color del borde */
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: rgb(45, 95, 135); /* Cambio de color de fondo */
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 90px;
+}
+.numeros {
+    text-align: center;
+}
+.digito {
+    border-radius: 50px;
+    font-size: 30px;
+    color: azure;
+    width: 70px;
+    height: 70px;
+    border: 0px;
+    background: linear-gradient(rgb(150, 186, 231), rgb(74, 114, 166)); /* Cambio de gradiente de fondo */
+    border: 5px inset rgb(86, 132, 180); /* Cambio de color del borde */
+}
+.accion {
+    justify-content: space-around;
+    border-radius: 10px;
+    border: 0px;
+    background: linear-gradient(rgb(140, 175, 228), rgb(45, 95, 135)); /* Cambio de gradiente de fondo */
+}
+.img_boton {
+    width: 30%;
+}
+#display {
+    margin-bottom: 15px;
+    text-align: center;
+}
+#vidas {
+    width: 55px;
+}
+#display_errores {
+    color: azure;
+    font-size: 30px;
+    position: absolute;
+    text-align: right;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.cronometro {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 30px;
+    color: azure;
+    padding: 10px 0;
+    background: rgb(45, 95, 135); /* Cambio de color de fondo */
+    border-radius: 30px;
+    border: 10px outset rgb(86, 132, 180); /* Cambio de color del borde */
+}
+#combinacion {
+    margin-top: 5%;
+    border: 10px groove rgb(53, 93, 144); /* Cambio de color del borde */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    width: auto;
+    background: linear-gradient(rgb(27, 60, 99), rgb(7, 32, 65)); /* Cambio de gradiente de fondo */
+    border-radius: 15px;
+}
+.contenedor {
+    margin-left: 50%;
+    width: auto;
+    position: relative;
+    display: inline-block;
+    align-content: center;
+    margin-bottom: 10px;
+}
